@@ -36,9 +36,9 @@
 				title: "מה אוכלים",
 				textElement: "#meals-content"
 			},
-			vacations: {
-				title: "לוח חופשות",
-				textElement: "#vacations-content"
+			community: {
+				title: "גוזלי למען הקהילה",
+				textElement: "#community-content"
 			},
 			day: {
 				title: "פעילות המשפחתון",
