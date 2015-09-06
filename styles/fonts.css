@@ -1,0 +1,44 @@
+﻿@font-face {
+    font-family: 'gan_clmbold';
+    src: url('fonts/gan/ganclm_bold-webfont.eot');
+    src: url('fonts/gan/ganclm_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gan/ganclm_bold-webfont.woff') format('woff'),
+         url('fonts/gan/ganclm_bold-webfont.ttf') format('truetype'),
+         url('fonts/gan/ganclm_bold-webfont.svg#gan_clmbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'makabi_ygdemi-bold';
+    src: url('fonts/makabi/makabiyg-webfont.eot');
+    src: url('fonts/makabi/makabiyg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/makabi/makabiyg-webfont.woff') format('woff'),
+         url('fonts/makabi/makabiyg-webfont.ttf') format('truetype'),
+         url('fonts/makabi/makabiyg-webfont.svg#makabi_ygdemi-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anka_clmbold';
+    src: url('fonts/anka/ankaclm-bold-webfont.eot');
+    src: url('fonts/anka/ankaclm-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/anka/ankaclm-bold-webfont.woff') format('woff'),
+         url('fonts/anka/ankaclm-bold-webfont.ttf') format('truetype'),
+         url('fonts/anka/ankaclm-bold-webfont.svg#anka_clmbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shofar';
+    src: url('fonts/shofar-bold/shofardemi-bold-webfont.eot');
+    src: url('fonts/shofar-bold/shofardemi-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/shofar-bold/shofardemi-bold-webfont.woff') format('woff'),
+         url('fonts/shofar-bold/shofardemi-bold-webfont.ttf') format('truetype'),
+         url('fonts/shofar-bold/shofardemi-bold-webfont.svg#shofarbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
