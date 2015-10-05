@@ -199,17 +199,11 @@ li.main-menu-item.active:before {
 }
 
 #mobile-menu-container {
-    /*bottom: 24px;*/
-    /*left: 20px;*/
-    /*position: absolute;*/
     display: none;
-    /*float: left;*/
 
     bottom: 0;
-    top: 0;
     left: 0;
     position: fixed;
-    width: 35%;
 }
 
 #mobile-menu {
@@ -239,15 +233,9 @@ li.main-menu-item.active:before {
 }
 
 .main-menu-item.mobile {
-    /*display: list-item;*/
-    /*padding: 12px 8px;*/
     background-color: #fff;
-    /*margin: 0 0 2px 0;*/
     font-size: 1.6em;
-
     display: block;
-    /*height: 10%;*/
-    /*float: right;*/
     width: 80%;
     margin: 15px auto;
     padding: 12% 0;
@@ -267,14 +255,10 @@ li.main-menu-item.mobile:before{
     display: none;
     margin: 0;
     box-shadow: 2px 2px 4px 2px #262626;
-    /* width: 216px; */
-    padding: 0;
-    /* max-height: 20em; */
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px 0 0;
-
 }
 
 #page-backdrop {
@@ -305,6 +289,9 @@ li.main-menu-item.mobile:before{
 
 .mobile-menu-open #mobile-menu-container{
     background-color: rgba(52, 39, 60, 0.72);
+    top: 0;
+    width: 35%;
+    padding-bottom: 15px;
 }
 
 .mobile-menu-open #mobile-menu-items {

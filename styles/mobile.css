@@ -146,9 +146,10 @@
         font-size: 1.5em;
     }
 
-    /*#mobile-menu-items{*/
-    /*max-height:15em;*/
-    /*}*/
+    #mobile-menu-items{
+        padding: 4px 0 0;
+    }
+
     #mobile-menu:before {
         margin-top: 5px;
     }
@@ -221,8 +222,8 @@
         height: 40px;
     }
 
-    #mobile-menu-container {
-        width: 50%;
+    .mobile-menu-open #mobile-menu-container {
+        width: 55%;
     }
 }
 
