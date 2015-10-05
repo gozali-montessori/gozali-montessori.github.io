@@ -219,6 +219,8 @@ li.main-menu-item.active:before {
     position: absolute;
     left: 24px;
     bottom: 10px;
+
+    transition: left 0.5s;
 }
 
 #mobile-menu:before {
@@ -298,18 +300,9 @@ li.main-menu-item.mobile:before{
     display: block;
 }
 
-.mobile-menu-open #mobile-menu span {
-    display: none;
-}
-
 .mobile-menu-open #mobile-menu {
-    /*height: 0.2em;*/
-    /*background-color: #453144;*/
-    display: none;
-}
-
-.mobile-menu-open #mobile-menu:before {
-    display: none;
+    left: -250px;
+    opacity: 0.2;
 }
 
 #page-container {
