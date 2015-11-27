@@ -98,7 +98,7 @@ header {
     text-shadow: 2px 1px 2px rgb(20, 220, 55);
     margin-top: 0;
     margin-bottom: 2px;
-    font-size: inherit;
+    font-size: 1em;
 }
 
 #bgimg {
@@ -210,12 +210,12 @@ li.main-menu-item.active:before {
     font-size: 2em;
     font-family: 'anka_clmbold';
     cursor: pointer;
-    background-color: rgb(242, 245, 246);
-    padding: 8px 26px 6px 4px;
-    border-radius: 0 0 8px 8px;
+    background-color: rgba(206, 219, 216, 0.91);
+    padding: 8px 30px 6px 4px;
+    border-radius: 2px
     width: 186px;
-    -webkit-box-shadow: 2px 2px 4px 4px #262626;
-    box-shadow: 2px 2px 4px 4px #262626;
+    -webkit-box-shadow: 2px 2px 4px 4px rgba(38, 38, 38, 0.54);
+    box-shadow: 2px 2px 4px 4px rgba(38, 38, 38, 0.54);
     position: absolute;
     left: 24px;
     bottom: 10px;
