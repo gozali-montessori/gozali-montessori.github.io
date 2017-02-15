@@ -1,29 +1,28 @@
 ﻿$("document").ready(function () {
-    "use strict";
+	"use strict";
 
-    function init() {
+	function init() {
 
-        gozali.pages.start();
-        gozali.menu.start();
+		gozali.history.start();
+		gozali.pages.start();
+		gozali.menu.start();
 
-        $("#site-logo").click(onLogoClick);
+		$("#site-logo").click(onLogoClick);
 
-        doIntroAnimation();
-    }
+		doIntroAnimation();
+	}
 
-    function doIntroAnimation() {
-        setTimeout(function () {
-            gozali.pages.showBackgroundEffect();
-            gozali.pages.toggleDelayedElement(".intro-delayed", true);
-        }, 150);
-    }
+	function doIntroAnimation() {
+		setTimeout(function () {
+			gozali.pages.initializeContent();
+			gozali.pages.toggleDelayedElement(".intro-delayed", true);
+		}, 150);
+	}
 
-    function onLogoClick() {
-        ga("send", "event", "action", "site-logo-click", "user-interaction");
-        gozali.pages.hideSelectedContent();
-        gozali.pages.showBackgroundEffect();
-        gozali.pages.showHomeContent();
-    }
+	function onLogoClick() {
+		ga("send", "event", "action", "site-logo-click", "user-interaction");
+		gozali.pages.navigateToHome();
+	}
 
-    init();
+	init();
 });
