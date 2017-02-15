@@ -96,7 +96,7 @@
 	}
 
 	function showBackgroundEffect() {
-		var bgImgFilter = "blur(6px) contrast(60%) drop-shadow(6px 10px 4px rgb(20, 220, 55)) ";
+		var bgImgFilter = "blur(6px) contrast(60%) drop-shadow(6px 10px 4px rgb(101, 173, 169)) ";
 		ui.bgImg.css({"-webkit-filter": bgImgFilter, "filter": bgImgFilter});
 	}
 
