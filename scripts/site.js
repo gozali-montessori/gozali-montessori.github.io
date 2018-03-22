@@ -4,8 +4,8 @@
 	function init() {
 
 		gozali.history.start();
-		gozali.pages.start();
 		gozali.menu.start();
+		gozali.pages.start();
 
 		$("#site-logo").click(onLogoClick);
 

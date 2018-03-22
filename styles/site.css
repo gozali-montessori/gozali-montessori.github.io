@@ -212,8 +212,8 @@ li.main-menu-item.active:before {
     cursor: pointer;
     background-color: rgba(206, 219, 216, 0.91);
     padding: 8px 30px 6px 4px;
-    border-radius: 2px
-    width: 186px;
+    border-radius: 2px;
+    width: 166px;
     -webkit-box-shadow: 2px 2px 4px 4px rgba(38, 38, 38, 0.54);
     box-shadow: 2px 2px 4px 4px rgba(38, 38, 38, 0.54);
     position: absolute;
@@ -236,10 +236,10 @@ li.main-menu-item.active:before {
 
 .main-menu-item.mobile {
     background-color: #fff;
-    font-size: 1.6em;
+    font-size: 1.5em;
     display: block;
     width: 80%;
-    margin: 15px auto;
+    margin: 10px auto;
     padding: 12% 0;
     text-align: center;
     border-radius: 2px;
@@ -585,4 +585,10 @@ li.main-menu-item.mobile:before{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+
+#blog-content .fb_iframe_widget{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }

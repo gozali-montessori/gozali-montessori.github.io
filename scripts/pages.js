@@ -34,6 +34,10 @@
 			contact: {
 				title: "צור קשר",
 				textElement: "#contact-content"
+			},
+			blog: {
+				title: "הבלוג",
+				textElement: "#blog-content"
 			}
 		};
 
@@ -131,6 +135,7 @@
 
 		if (contentItem) {
 			_showContentForItem(contentId, contentItem);
+			gozali.menu.setActiveMenuItem(contentId);
 		}
 		else {
 			if (contentId !== "") {
