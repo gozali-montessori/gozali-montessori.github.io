@@ -86,7 +86,7 @@
                 }, 1);
             }
         }
-        else{
+        else {
             gozali.pages.removeBackgroundEffect();
         }
 
@@ -146,11 +146,11 @@
                 .html(content);
         }
 
-        ui.overlay.container.css({"opacity": "1", "left": "0", "width": "100%"});
+        ui.overlay.container.css({ "opacity": "1", "left": "0", "width": "100%" });
     }
 
     function _hideOverlay() {
-        ui.overlay.container.css({"opacity": "0", "left": "-110px", "width": "100px"}); //, "width": "100%"});
+        ui.overlay.container.css({ "opacity": "0", "left": "-110px", "width": "100px" }); //, "width": "100%"});
     }
 
     gozali.menu = {
